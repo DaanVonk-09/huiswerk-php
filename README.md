@@ -4,9 +4,8 @@ Al mijn huiswerk voor PHP in periode 2 van leerjaar 26-27 (SOD1A - LJ1 - Daan Vo
 # Opdracht 1:
 X - XAMPP installeren
 V - alternatief: HTTPD (apache web server), MariaDB, PHP, Perl apart geinstallerd <br />
-? - phpMyAdmin geinstalleerd werkt niet.
-
-...
+? - phpMyAdmin geinstalleerd werkt niet. <br />
+V - Test pagina gemaakt
 
 # Opdracht 2:
 ?
