@@ -2,7 +2,7 @@
 
 
 # Naar map waar dingen zijn.
-cd "$(dirname "0")" || exit 1
+cd "$(dirname "$0")" || exit 1
 
 # Cleannnn
 
@@ -49,15 +49,17 @@ fi
 # Invoer valideren
 if  !  [[ "$choice" =~  ^[0-9]+$ ]] ||
     [ "$choice" -lt 1 ] ||
-    [ "$choice" -gt  "${#scripts[@]}" ];
+    [ "$choice" -gt  "${#scripts[@]}" ]; then
     echo "invalid selection."
     read -p "Press Enter to exit..."
     exit 1
 fi
 
 # PHP script uitvoeren
-selected_script="${scripts[$((choice -1))]}
+selected_script="${scripts[$((choice -1))]}"
 
 echo " "
-echo "Launching: $selected_script"
-echo "==========================="
+echo "Launching: $selected_script "
+echo " "
+
+php -S localhost:8000 "$selected_script"
