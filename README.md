@@ -9,7 +9,7 @@ CLI maken voor windows in .bat
 
 # Opdracht 1:
 X - XAMPP installeren <br />
-V - alternatief: HTTPD (apache web server), MariaDB, PHP, Perl apart geinstallerd <br />
+V - alternatief: HTTPD (apache web server), MySQL, PHP, Perl apart geinstallerd <br />
 ? - phpMyAdmin geinstalleerd werkt niet. <br />
 V - Test pagina gemaakt
 
