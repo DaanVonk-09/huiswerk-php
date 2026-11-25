@@ -14,4 +14,5 @@ V - alternatief: HTTPD (apache web server), MySQL, PHP, Perl apart geinstallerd 
 V - Test pagina gemaakt
 
 # Opdracht 2:
-?
+V - school.php
+1/5 - datum.php
